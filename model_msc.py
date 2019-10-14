@@ -78,7 +78,7 @@ def msc(embedding_matrix, dimx=50, dimy=50, dimw=7, nb_filter = 120, num_slices 
     x_sem_repr_fin = Reshape((50,50), name="x_sem_repr")(x_sem_repr_new)
 
     
-    ''' strucutured representation '''   
+    ''' structured representation '''   
     channel_1, channel_2 = [], []
 
     conv = Conv1D(kernel_size=filter_length, padding="same", activation="relu", data_format="channels_last", filters=nb_filter)
