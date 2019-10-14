@@ -27,7 +27,7 @@ from keras.optimizers import Adam
 import layers as lm
 import preprocess as prs
 
-######################## MODEL USING BASIC CNN ########################
+######################## HierSemCor MODEL ########################
 
 
 
