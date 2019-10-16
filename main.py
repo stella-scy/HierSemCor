@@ -92,7 +92,7 @@ lrmodel = model.msc
 model_name = lrmodel.__name__
 
 for i in range(len(pat_dict)):
-    recon_1_n = [pat_dict[i][6]] * 300
+    recon_1_n = [pat_dict[i][6]]
     recon_1_n = np.asarray(recon_1_n)
 
     if i > 0:
